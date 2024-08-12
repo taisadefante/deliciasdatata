@@ -1,9 +1,30 @@
+/* footer.css */
+
 footer {
   background: black;
-  padding: 5px;
-  font-size: 8px;
+  padding: 10px;
+  font-size: 12px;
   width: 100%;
   left: 0;
   color: white;
   text-align: center;
+}
+
+footer span {
+  display: block;
+  margin: 5px 0;
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    font-size: 10px;
+    padding: 8px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  footer {
+    font-size: 8px;
+    padding: 6px;
+  }
 }
