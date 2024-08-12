@@ -1,18 +1,42 @@
+// botoesFiltro.jsx
 import { useState } from "react";
 import "./botoesFiltro.css";
+import ProdutoVitrine from "../ProdutosVitrine/produtosVitrine";
 import logofit from "../../assets/fit/logofit.png";
 import logoMassas from "../../assets/massas/bolo-batata.png";
+import logoRefeicao from "../../assets/massas/bolo-batata.png";
+import logoEmpadas from "../../assets/empadas/frango_azeitona.png";
+import logoEmpadao from "../../assets/empadao/empadao.jpg";
+import logoEmpadinhas from "../../assets/empadinhas/frango.jpg";
+import logoQuiche from "../../assets/quiche/alho_poro.png";
+import logoPizza from "../../assets/pizza/mucarela.png";
+import logoSalgados from "../../assets/pizza/mucarela.png";
+import logoBolos from "../../assets/pizza/mucarela.png";
+import logoDonuts from "../../assets/donuts/churros.png";
 
-function BotoesFiltro({ setFiltro }) {
-  const [filtroAtivo, setFiltroAtivo] = useState(null);
+function BotoesFiltro({ setFiltro, filtroAtivo, setFiltroAtivo, produtos }) {
+  const categorias = [
+    "Fit",
+    "Refeições",
+    "Massas",
+    "Empadas",
+    "Empadão",
+    "Empadinhas",
+    "Quiche",
+    "Pizza",
+    "Salgados",
+    "Bolos",
+    "Donuts",
+    "Doces e sobremesas",
+    "Festa",
+    "Bebidas",
+  ];
 
   const handleFiltro = (categoria) => {
     if (filtroAtivo === categoria) {
-      // Se o filtro clicado for igual ao filtro ativo, remove o filtro
       setFiltro(null);
       setFiltroAtivo(null);
     } else {
-      // Caso contrário, define o novo filtro
       setFiltro(categoria);
       setFiltroAtivo(categoria);
     }
@@ -20,58 +44,69 @@ function BotoesFiltro({ setFiltro }) {
 
   return (
     <div className="container-buttons-filtro">
-      <button
-        className={`button-filtro ${filtroAtivo === "Fit" ? "ativo" : ""}`}
-        onClick={() => handleFiltro("Fit")}
-      >
-        <img src={logofit} width={"40px"} />
-        Fit
-      </button>
-      <button
-        className={`button-filtro ${
-          filtroAtivo === "Refeições" ? "ativo" : ""
-        }`}
-        onClick={() => handleFiltro("Refeições")}
-      >
-        <i class="fa-solid fa-bread-slice"></i>
-        Refeições
-      </button>
-      <button
-        className={`button-filtro ${filtroAtivo === "Massas" ? "ativo" : ""}`}
-        onClick={() => handleFiltro("Massas")}
-      >
-        <img src={logoMassas} width={"40px"} />
-        Massas
-      </button>
-      <button
-        className={`button-filtro ${filtroAtivo === "Empadas" ? "ativo" : ""}`}
-        onClick={() => handleFiltro("Empadas")}
-      >
-        <i class="fa-solid fa-utensils"></i>
-        Empadas
-      </button>
-      <button
-        className={`button-filtro ${filtroAtivo === "Empadao" ? "ativo" : ""}`}
-        onClick={() => handleFiltro("Empadao")}
-      >
-        <i class="fa-solid fa-whiskey-glass"></i>
-        Empadão
-      </button>
-      <button
-        className={`button-filtro ${filtroAtivo === "Bebidas" ? "ativo" : ""}`}
-        onClick={() => handleFiltro("Bebidas")}
-      >
-        <i class="fa-solid fa-whiskey-glass"></i>
-        Bebidas
-      </button>
-
-      <button
-        className={`button-filtro ${filtroAtivo === null ? "ativo" : ""}`}
-        onClick={() => handleFiltro(null)}
-      >
-        <i class="fa-solid fa-bars"></i>
-        Todos
-      </button>
+      {categorias.map((categoria) => (
+        <div key={categoria} className="categoria-container">
+          <button
+            className={`button-filtro ${
+              filtroAtivo === categoria ? "ativo" : ""
+            }`}
+            onClick={() => handleFiltro(categoria)}
+          >
+            <img
+              src={
+                categoria === "Fit"
+                  ? logofit
+                  : categoria === "Massas"
+                  ? logoMassas
+                  : categoria === "Refeições"
+                  ? logoRefeicao
+                  : categoria === "Empadas"
+                  ? logoEmpadas
+                  : categoria === "Empadão"
+                  ? logoEmpadao
+                  : categoria === "Empadinhas"
+                  ? logoEmpadinhas
+                  : categoria === "Quiche"
+                  ? logoQuiche
+                  : categoria === "Pizza"
+                  ? logoPizza
+                  : categoria === "Salgados"
+                  ? logoSalgados
+                  : categoria === "Bolos"
+                  ? logoBolos
+                  : categoria === "Donuts"
+                  ? logoDonuts
+                  : categoria === "Doces e sobremesas"
+                  ? logoDonuts
+                  : categoria === "Festa"
+                  ? logoDonuts
+                  : categoria === "Bebidas"
+                  ? logoDonuts
+                  : ""
+              }
+              width={"40px"}
+              alt={categoria}
+            />
+            {categoria}
+          </button>
+          {filtroAtivo === categoria && (
+            <div className="produtos-categoria">
+              {produtos
+                .filter((produto) => produto.categoria === categoria)
+                .map((produto) => (
+                  <ProdutoVitrine
+                    key={produto.id}
+                    id={produto.id}
+                    nome={produto.nome}
+                    descricao={produto.descricao}
+                    preco={produto.preco}
+                    foto={produto.foto}
+                  />
+                ))}
+            </div>
+          )}
+        </div>
+      ))}
     </div>
   );
 }

@@ -1,6 +1,7 @@
 .container-vitrine {
   display: flex;
   justify-content: center;
+  margin: 10px;
 }
 .container-produtos {
   width: 280px;
@@ -46,4 +47,55 @@
   background: #f39f5a;
   border: 2px solid #e36414;
   color: #fff;
+}
+
+/* Modal */
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.7); /* Fundo escuro com transparência */
+}
+
+/* Conteúdo do modal */
+.modal-content {
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  max-width: 80%;
+  max-height: 80%;
+  text-align: center;
+}
+
+/* Imagem dentro do modal */
+.modal-img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* Botão de fechar */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color: red;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }
