@@ -1,0 +1,36 @@
+.container-buttons-filtro {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+  overflow: auto;
+}
+.button-filtro {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 2px;
+  border: 2px solid #e36414;
+  cursor: pointer;
+  background: #e36414;
+  font-weight: 600;
+  color: #fff;
+  transition: 0.2s ease-in-out;
+}
+.button-filtro.ativo {
+  background-color: #f39f5a;
+}
+
+.button-filtro:hover {
+  background: #f39f5a;
+  border: 2px solid #e36414;
+  color: #fff;
+}
+
+@media screen and (max-width: 760px) {
+  .container-buttons-filtro {
+    flex-wrap: wrap;
+    margin: 10px 5px 10px 5px;
+  }
+}
