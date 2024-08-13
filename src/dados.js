@@ -3,7 +3,6 @@ import empada_frango_azeitona from "./assets/empadas/frango_azeitona.png";
 import empada_queijo from "./assets/empadas/queijo.png";
 import empada_Leite_condensado from "./assets/empadas/leite_condensado.png";
 import empada_alho_poro from "./assets/empadas/alho-poro.jpg";
-import empada_brigadeiro from "./assets/empadas/brigadeiro.png";
 
 import empadao from "./assets/empadao/empadao.jpg";
 
@@ -19,7 +18,10 @@ import quiche_queijo25 from "./assets/quiche/queijo 25cm.png";
 import quiche_brigadeiro from "./assets/quiche/brigadeiro.png";
 
 import mini_pizza_mucarela from "./assets/pizza/mucarela.png";
-import mini_pizza_mucarela_12cm from "./assets/pizza/mini_pizza_12cm.jpg";
+import mini_pizza_mucarela_12cm from "./assets/pizza/mini_pizza_11cm.png";
+import mini_pizza_calabresa_12cm from "./assets/pizza/14CM.png";
+import mini_pizza_mucarela_14cm from "./assets/pizza/14CM-.png";
+import mini_pizza_calabresa_14cm from "./assets/pizza/14CM.png";
 
 import mini_pizza_calabresa from "./assets/pizza/12minipizzacalabresa.jpg";
 
@@ -386,28 +388,10 @@ const produtos = [
   },
 
   //MINI PIZZA
+
   {
     id: 7,
-    nome: "Mini pizza muçarela",
-    categoria: "Pizza",
-    descricao:
-      " Aprox: ( +7cm ) cada - cento por R$ 100,00 (verificar disponibilidade)",
-    preco: 1.1,
-    foto: mini_pizza_mucarela,
-  },
-
-  {
-    id: 7.1,
-    nome: "Mini pizza muçarela",
-    categoria: "Pizza",
-    descricao: " Aprox: 12cm cada ",
-    preco: 2.0,
-    foto: mini_pizza_mucarela_12cm,
-  },
-
-  {
-    id: 7.2,
-    nome: "Mini pizza muçarela",
+    nome: "Mini pizza muçarela 5cm",
     categoria: "Pizza",
     descricao:
       " Aprox: ( 5cm ) cada - cento por R$ 80,00 (verficar disponibilidade)",
@@ -416,15 +400,59 @@ const produtos = [
   },
 
   {
-    id: 7.3,
-    nome: "Mini pizza calabresa",
+    id: 7.1,
+    nome: "Mini pizza calabresa 5cm",
     categoria: "Pizza",
     descricao:
       " Aprox: ( 5cm ) cada - cento por R$ 85,00 (verficar disponibilidade)",
     preco: 0.95,
     foto: mini_pizza_calabresa,
   },
+  {
+    id: 7.2,
+    nome: "Mini pizza muçarela",
+    categoria: "Pizza",
+    descricao:
+      " Aprox: ( 7cm ) cada - cento por R$ 100,00 (verificar disponibilidade)",
+    preco: 1.25,
+    foto: mini_pizza_mucarela,
+  },
 
+  {
+    id: 7.3,
+    nome: "Mini pizza muçarela 11cm",
+    categoria: "Pizza",
+    descricao: " Aprox: 12cm cada ",
+    preco: 2.0,
+    foto: mini_pizza_mucarela_12cm,
+  },
+
+  {
+    id: 7.4,
+    nome: "Mini pizza calabresa 14cm",
+    categoria: "Pizza",
+    descricao: " Aprox: 12cm cada ",
+    preco: 2.6,
+    foto: mini_pizza_calabresa_14cm,
+  },
+
+  {
+    id: 7.5,
+    nome: "Mini pizza muçarela 14cm",
+    categoria: "Pizza",
+    descricao: " Aprox: 14cm cada ",
+    preco: 3,
+    foto: mini_pizza_mucarela_14cm,
+  },
+
+  {
+    id: 7.6,
+    nome: "Mini pizza calabresa",
+    categoria: "Pizza",
+    descricao: " Aprox: 14cm cada ",
+    preco: 2.2,
+    foto: mini_pizza_mucarela_12cm,
+  },
   //BOLINHO FEIJOADA
   {
     id: 8,

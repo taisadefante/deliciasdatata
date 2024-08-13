@@ -21,6 +21,7 @@ function BotoesFiltro({ setFiltro, filtroAtivo, setFiltroAtivo, produtos }) {
   const categorias = [
     "Fit",
     "Doces Fit",
+    "Sopas",
     "Refeições Tradionais",
     "Massas",
     "Empadas",
