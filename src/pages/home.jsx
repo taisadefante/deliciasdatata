@@ -6,6 +6,8 @@ import "./style.css";
 import { CartContext } from "../contexts/cart-context";
 import Footer from "../components/footer/footer";
 import uberentrega from "../assets/uberentrega.jpg";
+import ifood from "../assets/ifood.png";
+
 import picpayLogo from "../assets/picpay.png";
 import mercadoPagoLogo from "../assets/mercadopago.jpeg";
 import pixLogo from "../assets/pix.png";
@@ -31,7 +33,7 @@ export default function Home() {
           produtos={produtos}
         />
         <section className="payment-section">
-          <h2>Aceitamos:</h2>
+          <h2>Pagamento</h2>
           <div className="payment-methods">
             <img src={picpayLogo} alt="PicPay" />
             <img src={mercadoPagoLogo} alt="Mercado Pago" />
@@ -39,10 +41,11 @@ export default function Home() {
           </div>
         </section>
         <section className="shipping-section">
-          <h2>
+          <h2>Entrega</h2>
+          <div className="payment-methods">
             <img src={uberentrega} />
-          </h2>
-          <p> </p>
+            <img src={ifood} />
+          </div>
         </section>
         <Footer />
       </div>
