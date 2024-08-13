@@ -349,7 +349,7 @@ const produtos = [
   {
     id: 7,
     nome: "Mini pizza muçarela",
-    categoria: "Mini Pizza",
+    categoria: "Pizza",
     descricao:
       " Aprox: ( +7cm ) cada - cento por R$ 100,00 (verificar disponibilidade)",
     preco: 1.1,
@@ -359,7 +359,7 @@ const produtos = [
   {
     id: 7.1,
     nome: "Mini pizza muçarela",
-    categoria: "Mini Pizza",
+    categoria: "Pizza",
     descricao: " Aprox: 12cm cada ",
     preco: 2.0,
     foto: mini_pizza_mucarela_12cm,
@@ -368,7 +368,7 @@ const produtos = [
   {
     id: 7.2,
     nome: "Mini pizza muçarela",
-    categoria: "Mini Pizza",
+    categoria: "Pizza",
     descricao:
       " Aprox: ( 5cm ) cada - cento por R$ 80,00 (verficar disponibilidade)",
     preco: 0.9,
@@ -378,7 +378,7 @@ const produtos = [
   {
     id: 7.3,
     nome: "Mini pizza calabresa",
-    categoria: "Mini Pizza",
+    categoria: "Pizza",
     descricao:
       " Aprox: ( 5cm ) cada - cento por R$ 85,00 (verficar disponibilidade)",
     preco: 0.95,
