@@ -13,11 +13,13 @@ import logoPizza from "../../assets/pizza/mucarela.png";
 import logoSalgados from "../../assets/pizza/mucarela.png";
 import logoBolos from "../../assets/pizza/mucarela.png";
 import logoDonuts from "../../assets/donuts/churros.png";
+import logoBebida from "../../assets/bebida/pepsi.jpg";
 
 function BotoesFiltro({ setFiltro, filtroAtivo, setFiltroAtivo, produtos }) {
   const categorias = [
     "Fit",
-    "Refeições",
+    "Doces Fit",
+    "Refeições Tradionais",
     "Massas",
     "Empadas",
     "Empadão",
@@ -56,9 +58,11 @@ function BotoesFiltro({ setFiltro, filtroAtivo, setFiltroAtivo, produtos }) {
               src={
                 categoria === "Fit"
                   ? logofit
+                  : categoria === "Doces Fit"
+                  ? logofit
                   : categoria === "Massas"
                   ? logoMassas
-                  : categoria === "Refeições"
+                  : categoria === "Refeições Tradionais"
                   ? logoRefeicao
                   : categoria === "Empadas"
                   ? logoEmpadas
@@ -81,7 +85,7 @@ function BotoesFiltro({ setFiltro, filtroAtivo, setFiltroAtivo, produtos }) {
                   : categoria === "Festa"
                   ? logoDonuts
                   : categoria === "Bebidas"
-                  ? logoDonuts
+                  ? logoBebida
                   : ""
               }
               width={"40px"}

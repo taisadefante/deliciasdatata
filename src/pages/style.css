@@ -26,6 +26,61 @@
   margin-bottom: 20px;
 }
 
+.payment-section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 20px;
+  width: 90%;
+}
+
+.payment-section h2 {
+  font-size: 2em;
+  color: #e36414;
+  margin-bottom: 20px;
+}
+
+.payment-methods {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.payment-methods img {
+  width: 70px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.shipping-section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 20px;
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+.shipping-section h2 {
+  font-size: 2em;
+  color: #e36414;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.shipping-section img {
+  width: 80px;
+  margin: 0 auto;
+}
+
+.shipping-section p {
+  font-size: 1.2em;
+}
+
 @media screen and (max-width: 760px) {
   .content-produtos {
     margin-bottom: 100px;

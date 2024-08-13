@@ -137,7 +137,7 @@ const produtos = [
   {
     id: 2,
     nome: "Empadão de frango",
-    categoria: "Empadao",
+    categoria: "Empadão",
     descricao:
       "( Aprox: 500gr) - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta.",
 
@@ -148,426 +148,486 @@ const produtos = [
   {
     id: 2.1,
     nome: "Empadão de frango c/ requeijão",
-    categoria: "Empadao",
+    categoria: "Empadão",
     descricao:
       "( Aprox: 500gr) - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta.",
 
     preco: 24.9,
     foto: empadao,
   },
-  /*
 
   //EMPADINHAS 3,5CM
 
   {
-    name: "Empadinha Frango ",
-    category: "Empadinhas ",
-    describe: " Aprox: ( 3,5cm) - cento por R$ 90,00 (por encomenda)",
-    price: 1.0,
-    image: empadinha_frango,
+    id: 3,
+    nome: "Empadinha Frango ",
+    categoria: "Empadinhas",
+    descricao: " Aprox: ( 3,5cm) - cento por R$ 90,00 (por encomenda)",
+    preco: 1.0,
+    foto: empadinha_frango,
   },
   {
-    name: "Empadinha queijo ",
-    category: "Empadinhas ",
-    describe: " Aprox: ( 3,5cm) - cento por R$ 90,00 (por encomenda)",
-    price: 1.0,
-    image: empadinha_queijo,
+    id: 3.1,
+    nome: "Empadinha queijo ",
+    categoria: "Empadinhas",
+    descricao: " Aprox: ( 3,5cm) - cento por R$ 90,00 (por encomenda)",
+    preco: 1.0,
+    foto: empadinha_queijo,
   },
 
   {
-    name: "Empadinha Leite condensado ",
-    category: "Empadinhas ",
-    describe: " Aprox: ( 3,5cm) - cento por R$ 90,00 (por encomenda)",
-    price: 1.0,
-    image: empadinha_leite_condensado,
+    id: 3.2,
+    nome: "Empadinha Leite condensado ",
+    categoria: "Empadinhas",
+    descricao: " Aprox: ( 3,5cm) - cento por R$ 90,00 (por encomenda)",
+    preco: 1.0,
+    foto: empadinha_leite_condensado,
   },
 
   //EMPADINHAS 4,5CM
 
   {
-    name: "Empadinha Frango ",
-    category: "Empadinhas ",
-    describe: " Aprox: ( 4,5cm) - cento por R$ 100,00 (por encomenda)",
-    price: 1.2,
-    image: empadinha_frango,
+    id: 3.3,
+    nome: "Empadinha Frango ",
+    categoria: "Empadinhas",
+    descricao: " Aprox: ( 4,5cm) - cento por R$ 100,00 (por encomenda)",
+    preco: 1.2,
+    foto: empadinha_frango,
   },
   {
-    name: "Empadinha queijo ",
-    category: "Empadinhas ",
-    describe: " Aprox: ( 4,5cm) - cento por R$ 100,00 (por encomenda)",
-    price: 1.2,
-    image: empadinha_queijo,
+    id: 3.4,
+    nome: "Empadinha queijo ",
+    categoria: "Empadinhas",
+    descricao: " Aprox: ( 4,5cm) - cento por R$ 100,00 (por encomenda)",
+    preco: 1.2,
+    foto: empadinha_queijo,
   },
 
   {
-    name: "Empadinha Leite condensado ",
-    category: "Empadinhas ",
-    describe: " Aprox: ( 4,5cm) - cento por R$ 100,00 (por encomenda)",
-    price: 1.2,
-    image: empadinha_leite_condensado,
+    id: 3.4,
+    nome: "Empadinha Camarão ",
+    categoria: "Empadinhas",
+    descricao: " Aprox: ( 4,5cm) - cento por R$ 100,00 (por encomenda)",
+    preco: 1.3,
+    foto: empadinha_frango,
+  },
+
+  {
+    id: 3.5,
+    nome: "Empadinha Leite condensado ",
+    categoria: "Empadinhas",
+    descricao: " Aprox: ( 4,5cm) - cento por R$ 100,00 (por encomenda)",
+    preco: 1.2,
+    foto: empadinha_leite_condensado,
   },
   {
-    name: "Empadinha Alho poró ",
-    category: "Empadinhas ",
-    describe: " Aprox: ( 4,5cm) - cento por R$ 100,00 (por encomenda)",
-    price: 1.2,
-    image: empadinha_alho_poro,
+    id: 3.6,
+    nome: "Empadinha Alho poró ",
+    categoria: "Empadinhas",
+    descricao: " Aprox: ( 4,5cm) - cento por R$ 100,00 (por encomenda)",
+    preco: 1.2,
+    foto: empadinha_alho_poro,
   },
 
   //Quiche
   {
-    name: "Quiche alho poró",
-    category: "Quiche",
-    describe:
+    id: 4,
+    nome: "Quiche alho poró",
+    categoria: "Quiche",
+    descricao:
       "Aprox: ( 9cm ) - Outros tamanhos por encomenda  - 17cm por 22,00 -  25cm por  R$ 38,90,  - 30cm por R$ 52,00.",
-    price: 4.5,
-    image: quiche_alho_poro,
+    preco: 4.5,
+    foto: quiche_alho_poro,
   },
   {
-    name: "Quiche queijo",
-    category: "Quiche",
-    describe:
+    id: 4.1,
+    nome: "Quiche queijo",
+    categoria: "Quiche",
+    descricao:
       "Aprox: ( 9cm ) - Outros tamanhos por encomenda  - 17cm por 22,00 -  25cm por  R$ 38,90,  - 30cm por R$ 52,00.",
-    price: 4.5,
-    image: quiche_queijo,
+    preco: 4.5,
+    foto: quiche_queijo,
   },
 
   {
-    name: "Quiche 5 queijos",
-    category: "Quiche",
-    describe:
+    id: 4.2,
+    nome: "Quiche 5 queijos",
+    categoria: "Quiche",
+    descricao:
       "Aprox: ( 9cm ) - Outros tamanhos por encomenda  - 17cm por 22,00 -  25cm por  R$ 38,90,  - 30cm por R$ 52,00.",
-    price: 5.0,
-    image: quiche_queijo,
+    preco: 5.0,
+    foto: quiche_queijo,
   },
 
   {
-    name: "Quiche leite condensado",
-    category: "Quiche",
-    describe: "Aprox: ( 9cm ) .",
-    price: 4.5,
-    image: quiche_leite_condensado,
+    id: 4.3,
+    nome: "Quiche leite condensado",
+    categoria: "Quiche",
+    descricao: "Aprox: ( 9cm ) .",
+    preco: 4.5,
+    foto: quiche_leite_condensado,
   },
 
   {
-    name: "Quiche brigadeiro",
-    category: "Quiche",
-    describe: "Aprox: ( 9cm ) ",
-    price: 5.0,
-    image: quiche_brigadeiro,
+    id: 4.4,
+    nome: "Quiche brigadeiro",
+    categoria: "Quiche",
+    descricao: "Aprox: ( 9cm ) ",
+    preco: 5.0,
+    foto: quiche_brigadeiro,
   },
 
   {
-    name: "Quiche Queijo 17cm ",
-    category: "Quiche",
-    describe: "",
-    price: 22.0,
-    image: quiche_queijo25,
+    id: 4.4,
+    nome: "Quiche Queijo 17cm ",
+    categoria: "Quiche",
+    descricao: "",
+    preco: 22.0,
+    foto: quiche_queijo25,
   },
 
   {
-    name: "Quiche Queijo 25cm ",
-    category: "Quiche",
-    describe: "",
-    price: 38.9,
-    image: quiche_queijo25,
+    id: 4.5,
+    nome: "Quiche Queijo 25cm ",
+    categoria: "Quiche",
+    descricao: "",
+    preco: 38.9,
+    foto: quiche_queijo25,
   },
   {
-    name: "Quiche Queijo 30cm ",
-    category: "Quiche",
-    describe: ".",
-    price: 52.0,
-    image: quiche_queijo25,
+    id: 4.6,
+    nome: "Quiche Queijo 30cm ",
+    categoria: "Quiche",
+    descricao: ".",
+    preco: 52.0,
+    foto: quiche_queijo25,
   },
 
   //MASSAS
   {
-    name: "Lasanha bolonhesa c/ queijo e presunto ",
-    category: "Massas",
-    describe:
+    id: 5,
+    nome: "Lasanha bolonhesa c/ queijo e presunto ",
+    categoria: "Massas",
+    descricao:
       " (aprox: 500gr) - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta.",
-    price: 22.0,
-    image: lasanha_bolonhesa,
+    preco: 22.0,
+    foto: lasanha_bolonhesa,
   },
 
   {
-    name: "Lasanha de frango c/ queijo",
-    category: "Massas",
-    describe:
+    id: 5.1,
+    nome: "Lasanha de frango c/ queijo",
+    categoria: "Massas",
+    descricao:
       " (aprox: 500gr) - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta.",
-    price: 22.0,
-    image: lasanha_frango,
+    preco: 22.0,
+    foto: lasanha_frango,
   },
 
   {
-    name: "Bolo de batata",
-    category: "Massas",
-    describe:
-      "Recheado com molho a bolonhesa, queijo e presunto (aprox: 600gr)  - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta.",
-    price: 22.0,
-    image: bolo_batata,
-  },
-
-  {
-    name: "Nhoque",
-    category: "Massas",
-    describe:
+    id: 5.2,
+    nome: "Nhoque",
+    categoria: "Massas",
+    descricao:
       " (aprox: 550gr) - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta.",
-    price: 24.0,
-    image: nhoque,
+    preco: 22.0,
+    foto: nhoque,
+  },
+
+  //REFEIÇÕES
+  {
+    id: 6,
+    nome: "Bolo de batata",
+    categoria: "Refeições",
+    descricao:
+      "Recheado com molho a bolonhesa e queijo (aprox: 600gr)  - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta).",
+    preco: 20.0,
+    foto: bolo_batata,
   },
 
   //MINI PIZZA
   {
-    name: "Mini pizza muçarela",
-    category: "Mini Pizza",
-    describe:
+    id: 7,
+    nome: "Mini pizza muçarela",
+    categoria: "Mini Pizza",
+    descricao:
       " Aprox: ( +7cm ) cada - cento por R$ 100,00 (verificar disponibilidade)",
-    price: 1.1,
-    image: mini_pizza_mucarela,
+    preco: 1.1,
+    foto: mini_pizza_mucarela,
   },
 
   {
-    name: "Mini pizza muçarela",
-    category: "Mini Pizza",
-    describe: " Aprox: 12cm cada ",
-    price: 2.0,
-    image: mini_pizza_mucarela_12cm,
+    id: 7.1,
+    nome: "Mini pizza muçarela",
+    categoria: "Mini Pizza",
+    descricao: " Aprox: 12cm cada ",
+    preco: 2.0,
+    foto: mini_pizza_mucarela_12cm,
   },
 
   {
-    name: "Mini pizza muçarela",
-    category: "Mini Pizza",
-    describe:
+    id: 7.2,
+    nome: "Mini pizza muçarela",
+    categoria: "Mini Pizza",
+    descricao:
       " Aprox: ( 5cm ) cada - cento por R$ 80,00 (verficar disponibilidade)",
-    price: 0.9,
-    image: mini_pizza_mucarela,
+    preco: 0.9,
+    foto: mini_pizza_mucarela,
   },
 
   {
-    name: "Mini pizza calabresa",
-    category: "Mini Pizza",
-    describe:
+    id: 7.3,
+    nome: "Mini pizza calabresa",
+    categoria: "Mini Pizza",
+    descricao:
       " Aprox: ( 5cm ) cada - cento por R$ 85,00 (verficar disponibilidade)",
-    price: 0.95,
-    image: mini_pizza_calabresa,
+    preco: 0.95,
+    foto: mini_pizza_calabresa,
   },
 
   //BOLINHO FEIJOADA
   {
-    name: "Bolinho feijoada",
-    category: "Bolinho Feijoada",
-    describe:
+    id: 8,
+    nome: "Bolinho feijoada",
+    categoria: "Salgados",
+    descricao:
       " Aprox: ( 35g ) cada - temos para sua festa com aprox 20g a R$1,20 unid",
-    price: 2.0,
-    image: bolinhofeijoada,
+    preco: 2.0,
+    foto: bolinhofeijoada,
   },
 
   //DONUTS
   {
-    name: "3 Donuts",
-    category: "Donuts",
-    price: 5.0,
-    describe:
+    id: 9,
+    nome: "3 Donuts",
+    categoria: "Donuts",
+    preco: 5.0,
+    descricao:
       "Aprox: ( 5cm ) - 3 donuts simples, massa(baunilha, chocolate, canela) com cobertura de chocolate branco ou preto e decoração a sua escolha - acima de 50 unid R$ 1,50 cada",
-    image: donuts1,
+    foto: donuts1,
   },
 
   {
-    name: "Donuts simples caixa",
-    category: "Donuts",
-    price: 3,
-    describe:
+    id: 9.1,
+    nome: "Donuts simples caixa",
+    categoria: "Donuts",
+    preco: 3,
+    descricao:
       "Aprox: ( 5cm ) -  3 donuts simples, massa(baunilha, chocolate, canela) com cobertura de chocolate branco ou preto e decoração a sua escolha - acima de 50 unid R$ 1,50 cada",
-    image: donuts2,
+    foto: donuts2,
   },
 
   {
-    name: "Churros",
-    category: "Donuts",
-    price: 3,
-    describe:
+    id: 9.2,
+    nome: "Churros",
+    categoria: "Donuts",
+    preco: 3,
+    descricao:
       "Aprox: ( 5cm ) - massa de canela polvilhado no açucar com canela com recheio de doce de leite.",
-    image: churros,
+    foto: churros,
   },
 
   {
-    name: "Donuts churros",
-    category: "Donuts",
-    price: 3,
-    describe:
+    id: 9.3,
+    nome: "Donuts churros",
+    categoria: "Donuts",
+    preco: 3,
+    descricao:
       "Aprox: ( 5cm ) - massa de canela, recheio de doce de leite e cobertura de doce de leite.",
-    image: donuts3,
+    foto: donuts3,
   },
 
   {
-    name: "Donuts banofe",
-    category: "Donuts",
-    price: 3,
-    describe:
+    id: 9.4,
+    nome: "Donuts banofe",
+    categoria: "Donuts",
+    preco: 3,
+    descricao:
       "Aprox: ( 5cm ) - massa de canela, recheio de doce de leite com pedaços de banana e cobertura de doce de chocolate branco.",
-    image: donuts4,
+    foto: donuts4,
   },
 
   {
-    name: "Donuts",
-    category: "Donuts",
-    price: 2,
-    describe:
+    id: 9.5,
+    nome: "Donuts",
+    categoria: "Donuts",
+    preco: 2,
+    descricao:
       "Aprox: ( 5cm ) - massa(baunilha, chocolate, canela) com cobertura de chocolate branco ou preto e decoração a sua escolha - acima de 50 unid R$ 1,50 cada",
-    image: donuts5,
+    foto: donuts5,
   },
 
   {
-    name: "2 donuts recheado",
-    category: "Donuts",
-    price: 5.5,
-    describe:
+    id: 9.6,
+    nome: "2 donuts recheado",
+    categoria: "Donuts",
+    preco: 5.5,
+    descricao:
       "Aprox: ( 5cm ) - massa(baunilha, chocolate, canela) com cobertura de chocolate branco ou preto e decoração a sua escolha, recheado com brigadeiro",
-    image: donuts6,
+    foto: donuts6,
   },
 
   {
-    name: "Donuts irresistivel",
-    category: "Donuts",
-    price: 5.5,
-    describe: "Aprox: ( 5cm ) - São 2 donuts recheado",
-    image: donuts7,
+    id: 9.7,
+    nome: "Donuts irresistivel",
+    categoria: "Donuts",
+    preco: 5.5,
+    descricao: "Aprox: ( 5cm ) - São 2 donuts recheado",
+    foto: donuts7,
   },
 
   {
-    name: "2 Donuts cobertura",
-    category: "Donuts",
-    price: 3,
-    describe:
+    id: 9.8,
+    nome: "2 Donuts cobertura",
+    categoria: "Donuts",
+    preco: 3,
+    descricao:
       "Aprox: ( 5cm ) - 2 donuts simples, massa(baunilha, chocolate, canela) com cobertura de chocolate branco ou preto e decoração a sua escolha - acima de 50 unid R$ 1,50 cada",
-    image: donuts8,
+    foto: donuts8,
   },
 
   {
-    name: "Petisqueira donuts churros",
-    category: "Donuts",
-    price: 13.0,
-    describe: "São 6 donuts massa canela com  doce de leite. ",
-    image: donuts9,
+    id: 9.9,
+    nome: "Petisqueira donuts churros",
+    categoria: "Donuts",
+    preco: 13.0,
+    descricao: "São 6 donuts massa canela com  doce de leite. ",
+    foto: donuts9,
   },
 
   {
-    name: "Pilulito donuts",
-    category: "Donuts",
-    price: 2.1,
-    describe: "o cento sai a R$ 1.70 cada",
-    image: donuts10,
+    id: 9.11,
+    nome: "Pilulito donuts",
+    categoria: "Donuts",
+    preco: 2.1,
+    descricao: "o cento sai a R$ 1.70 cada",
+    foto: donuts10,
   },
 
   {
-    name: "Donuts Recheado",
-    category: "Donuts",
-    price: 3,
-    describe:
+    id: 9.12,
+    nome: "Donuts Recheado",
+    categoria: "Donuts",
+    preco: 3,
+    descricao:
       "Aprox: ( 5cm ) - massa(baunilha, chocolate, canela) com cobertura de chocolate branco ou preto e decoração a sua escolha, recheado com brigadeiro",
-    image: donuts11,
+    foto: donuts11,
   },
 
   {
-    name: "Donuts",
-    category: "Donuts",
-    price: 2.1,
-    describe:
+    id: 9.13,
+    nome: "Donuts",
+    categoria: "Donuts",
+    preco: 2.1,
+    descricao:
       "Aprox: ( 5cm ) - massa(baunilha, chocolate, canela) com cobertura de chocolate branco ou preto e decoração. - acima de 50 unid R$ 1,50 cada",
-    image: donuts12,
+    foto: donuts12,
   },
 
   {
-    name: "Donuts",
-    category: "Donuts",
-    price: 2,
-    describe:
+    id: 9.14,
+    nome: "Donuts",
+    categoria: "Donuts",
+    preco: 2,
+    descricao:
       "Aprox: ( 5cm ) - massa(baunilha, chocolate, canela) com cobertura de chocolate branco ou preto e decoração a sua escolha. - acima de 50 unid R$ 1,50 cada",
-    image: donuts13,
+    foto: donuts13,
   },
 
   {
-    name: "Donuts",
-    category: "Donuts",
-    price: 2,
-    describe:
+    id: 9.15,
+    nome: "Donuts",
+    categoria: "Donuts",
+    preco: 2,
+    descricao:
       "Aprox: ( 5cm ) - massa(baunilha, chocolate, canela) com cobertura de chocolate branco ou preto e decoração a sua escolha. - acima de 50 unid R$ 1,50 cada",
-    image: donuts14,
+    foto: donuts14,
   },
 
   //DOCINHO
 
   {
-    name: "Docinho Brigadeiro",
-    category: "Docinho",
-    describe:
+    id: 10,
+    nome: "Docinho Brigadeiro",
+    categoria: "Docinho",
+    descricao:
       "Aprox: ( 15g ) - acima de 50 unidades sai a R$1,5 unidade, cento por R$ 120,00 ",
-    price: 2.0,
-    image: brigadeiro,
+    preco: 2.0,
+    foto: brigadeiro,
   },
 
   {
-    name: "Docinho morango",
-    category: "Docinho",
-    describe:
+    id: 10.1,
+    nome: "Docinho morango",
+    categoria: "Docinho",
+    descricao:
       "Aprox: ( 15g ) - acima de 50 unidades sai a R$1,5 unidade, cento por R$ 120,00 ",
-    price: 2.0,
-    image: morango,
+    preco: 2.0,
+    foto: morango,
   },
 
   {
-    name: "Docinho ninho",
-    category: "Docinho",
-    describe:
+    id: 10.2,
+    nome: "Docinho ninho",
+    categoria: "Docinho",
+    descricao:
       "Aprox: ( 15g ) - acima de 50 unidades sai a R$1,5 unidade, cento por R$ 120,00 ",
-    price: 2.0,
-    image: ninho,
+    preco: 2.0,
+    foto: ninho,
   },
 
   //BEBIDA
   {
-    name: "Pepsi 2lt",
-    category: "Bebida",
-    price: 10.0,
-    image: pepsi,
+    id: 11,
+    nome: "Pepsi 2lt",
+    categoria: "Bebidas",
+    descricao: "",
+    preco: 10.0,
+    foto: pepsi,
   },
   {
-    name: "Sukita uva",
-    category: "Bebida",
-    price: 8.0,
-    image: sukita_uva,
+    id: 11.1,
+    nome: "Sukita uva",
+    categoria: "Bebidas",
+    preco: 8.0,
+    foto: sukita_uva,
   },
   {
-    name: "Sukita Laranja",
-    category: "Bebida",
-    price: 8.0,
-    image: sukita_laranja,
-  },
-
-  // Outros
-
-  {
-    name: "Arroz Doce",
-    category: "Outros",
-    describe: "",
-    price: 5.0,
-    image: arrozdoce,
-  },
-  {
-    name: "Choco maça",
-    category: "Outros",
-    describe: "Por encomenda - colorido sai a R$ 3,40",
-    price: 3.0,
-    image: chocomaca,
+    id: 11.2,
+    nome: "Sukita Laranja",
+    categoria: "Bebidas",
+    preco: 8.0,
+    foto: sukita_laranja,
   },
 
+  // Doces e sobremesas
+
   {
-    name: "choco maça",
-    category: "Outros",
-    describe: "Por encomenda - colorido sai a R$ 3,40",
-    price: 3.0,
-    image: chocomaca2,
+    id: 12,
+    nome: "Arroz Doce",
+    categoria: "Doces e sobremesas",
+    descricao: "",
+    preco: 5.0,
+    foto: arrozdoce,
+  },
+
+  // Festas
+  {
+    id: 13,
+    nome: "Choco maça",
+    categoria: "Festa",
+    descricao: "Por encomenda - colorido sai a R$ 3,40",
+    preco: 3.0,
+    foto: chocomaca,
+  },
+
+  {
+    id: 13.1,
+    nome: "choco maça",
+    categoria: "Outros",
+    descricao: "Por encomenda - colorido sai a R$ 3,40",
+    preco: 3.0,
+    foto: chocomaca2,
   },
 
   {
@@ -592,7 +652,7 @@ const produtos = [
     describe: "Por encomenda - a cor de sua preferência.",
     price: 3.0,
     image: pirulitochoc,
-  },*/
+  },
 ];
 
 export default produtos;
