@@ -62,6 +62,8 @@ function BotoesFiltro({ setFiltro, filtroAtivo, setFiltroAtivo, produtos }) {
                   ? logofit
                   : categoria === "Doces Fit"
                   ? logofit
+                  : categoria === "Sopas"
+                  ? logofit
                   : categoria === "Massas"
                   ? logoMassas
                   : categoria === "Refeições Tradionais"

@@ -336,6 +336,35 @@ const produtos = [
     foto: nhoque,
   },
 
+  {
+    id: 5.3,
+    nome: "Nhoque Batata c/ carne de panela",
+    categoria: "Massas",
+    descricao:
+      " (aprox: 550gr) - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta.",
+    preco: 22.0,
+    foto: nhoque,
+  },
+
+  {
+    id: 5.4,
+    nome: "Nhoque Aipim  a bolonhesa",
+    categoria: "Massas",
+    descricao:
+      " (aprox: 550gr) - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta.",
+    preco: 22.0,
+    foto: nhoque,
+  },
+
+  {
+    id: 5.5,
+    nome: "Nhoque Aipim c/ carne de panela",
+    categoria: "Massas",
+    descricao:
+      " (aprox: 550gr) - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta.",
+    preco: 22.0,
+    foto: nhoque,
+  },
   //REFEIÇÕES TRADICIONAIS
   {
     id: 6,
