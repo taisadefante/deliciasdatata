@@ -32,6 +32,12 @@ export default function Home() {
           setFiltroAtivo={setFiltroAtivo}
           produtos={produtos}
         />
+        <div className="congelamento">
+          <p>
+            Todos os nossos produtos são cuidadosamente congelados para garantir
+            frescor e qualidade em cada refeição.
+          </p>
+        </div>
         <section className="payment-section">
           <h2>Pagamento</h2>
           <div className="payment-methods">
@@ -47,6 +53,7 @@ export default function Home() {
             <img src={ifood} />
           </div>
         </section>
+
         <Footer />
       </div>
     </>

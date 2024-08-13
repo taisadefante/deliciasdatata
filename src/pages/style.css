@@ -26,6 +26,12 @@
   margin-bottom: 20px;
 }
 
+.congelamento {
+  text-align: center;
+  color: red;
+  font-weight: bold;
+}
+
 .payment-section {
   background-color: #fff;
   padding: 20px;
