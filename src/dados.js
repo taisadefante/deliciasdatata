@@ -27,8 +27,10 @@ import bolinhofeijoada from "./assets/bolinhofeijoada/IMG_2669.jpg";
 
 import lasanha_bolonhesa from "./assets/massas/lasanha_bolonhesa.png";
 import lasanha_frango from "./assets/massas/lasanha-frango.jpg";
-import bolo_batata from "./assets/massas/bolo-batata.png";
 import nhoque from "./assets/massas/nhoque.jpg";
+
+import bolo_batata from "./assets/massas/bolo-batata.png";
+import bolo_batata_arroz from "./assets/refeicoes/BOLO BATATA E ARROZ BRANCO.png";
 
 import pepsi from "./assets/bebida/pepsi.jpg";
 import sukita_uva from "./assets/bebida/sukita_uva.jpg";
@@ -343,6 +345,15 @@ const produtos = [
       "Recheado com molho a bolonhesa e queijo (aprox: 600gr)  - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta).",
     preco: 20.0,
     foto: bolo_batata,
+  },
+
+  {
+    id: 6.1,
+    nome: "Bolo de batata c/ arroz",
+    categoria: "Refeições Tradionais",
+    descricao: "Recheado com molho a bolonhesa e queijo (aprox: 500gr)  .",
+    preco: 15.0,
+    foto: bolo_batata_arroz,
   },
 
   //MINI PIZZA
