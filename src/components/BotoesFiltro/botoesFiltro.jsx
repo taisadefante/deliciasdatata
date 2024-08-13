@@ -11,9 +11,11 @@ import logoEmpadinhas from "../../assets/empadinhas/frango.jpg";
 import logoQuiche from "../../assets/quiche/alho_poro.png";
 import logoPizza from "../../assets/pizza/mucarela.png";
 import logoSalgados from "../../assets/bolinhofeijoada/IMG_2669.jpg";
-import logoBolos from "../../assets/pizza/mucarela.png";
+import logoBolos from "../../assets/bolos/laranja.webp";
 import logoDonuts from "../../assets/donuts/churros.png";
+import logoFestas from "../../assets/outros/pirulito-mar.png";
 import logoBebida from "../../assets/bebida/pepsi.jpg";
+import logoDoces from "../../assets/outros/arroz doce.jpg";
 
 function BotoesFiltro({ setFiltro, filtroAtivo, setFiltroAtivo, produtos }) {
   const categorias = [
@@ -81,9 +83,9 @@ function BotoesFiltro({ setFiltro, filtroAtivo, setFiltroAtivo, produtos }) {
                   : categoria === "Donuts"
                   ? logoDonuts
                   : categoria === "Doces e sobremesas"
-                  ? logoDonuts
+                  ? logoDoces
                   : categoria === "Festa"
-                  ? logoDonuts
+                  ? logoFestas
                   : categoria === "Bebidas"
                   ? logoBebida
                   : ""
