@@ -326,7 +326,7 @@ const produtos = [
 
   {
     id: 5.2,
-    nome: "Nhoque",
+    nome: "Nhoque Batata a bolonhesa",
     categoria: "Massas",
     descricao:
       " (aprox: 550gr) - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta.",
@@ -334,11 +334,11 @@ const produtos = [
     foto: nhoque,
   },
 
-  //REFEIÇÕES
+  //REFEIÇÕES TRADICIONAIS
   {
     id: 6,
     nome: "Bolo de batata",
-    categoria: "Refeições",
+    categoria: "Refeições Tradionais",
     descricao:
       "Recheado com molho a bolonhesa e queijo (aprox: 600gr)  - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta).",
     preco: 20.0,
@@ -544,38 +544,6 @@ const produtos = [
     foto: donuts14,
   },
 
-  //DOCINHO
-
-  {
-    id: 10,
-    nome: "Docinho Brigadeiro",
-    categoria: "Docinho",
-    descricao:
-      "Aprox: ( 15g ) - acima de 50 unidades sai a R$1,5 unidade, cento por R$ 120,00 ",
-    preco: 2.0,
-    foto: brigadeiro,
-  },
-
-  {
-    id: 10.1,
-    nome: "Docinho morango",
-    categoria: "Docinho",
-    descricao:
-      "Aprox: ( 15g ) - acima de 50 unidades sai a R$1,5 unidade, cento por R$ 120,00 ",
-    preco: 2.0,
-    foto: morango,
-  },
-
-  {
-    id: 10.2,
-    nome: "Docinho ninho",
-    categoria: "Docinho",
-    descricao:
-      "Aprox: ( 15g ) - acima de 50 unidades sai a R$1,5 unidade, cento por R$ 120,00 ",
-    preco: 2.0,
-    foto: ninho,
-  },
-
   //BEBIDA
   {
     id: 11,
@@ -611,6 +579,36 @@ const produtos = [
     foto: arrozdoce,
   },
 
+  {
+    id: 12.1,
+    nome: "Docinho Brigadeiro",
+    categoria: "Doces e sobremesas",
+    descricao:
+      "Aprox: ( 15g ) - acima de 50 unidades sai a R$1,5 unidade, cento por R$ 120,00 ",
+    preco: 2.0,
+    foto: brigadeiro,
+  },
+
+  {
+    id: 12.2,
+    nome: "Docinho ninho",
+    categoria: "Doces e sobremesas",
+    descricao:
+      "Aprox: ( 15g ) - acima de 50 unidades sai a R$1,5 unidade, cento por R$ 120,00 ",
+    preco: 2.0,
+    foto: ninho,
+  },
+
+  {
+    id: 12.3,
+    nome: "Docinho morango",
+    categoria: "Doces e sobremesas",
+    descricao:
+      "Aprox: ( 15g ) - acima de 50 unidades sai a R$1,5 unidade, cento por R$ 120,00 ",
+    preco: 2.0,
+    foto: morango,
+  },
+
   // Festas
   {
     id: 13,
@@ -624,34 +622,37 @@ const produtos = [
   {
     id: 13.1,
     nome: "choco maça",
-    categoria: "Outros",
+    categoria: "Festa",
     descricao: "Por encomenda - colorido sai a R$ 3,40",
     preco: 3.0,
     foto: chocomaca2,
   },
 
   {
-    name: "Choco maça",
-    category: "Outros",
-    describe: "Por encomenda",
-    price: 3.3,
-    image: chocomaca3,
+    id: 13.2,
+    nome: "Choco maça",
+    categoria: "Festa",
+    descricao: "Por encomenda",
+    preco: 3.3,
+    foto: chocomaca3,
   },
 
   {
-    name: "Pirulito marshmallow",
-    category: "Outros",
-    describe: "Por encomenda - a cor de sua preferência.",
-    price: 1.5,
-    image: pirulitomarshmallow,
+    id: 13.3,
+    nome: "Pirulito marshmallow",
+    categoria: "Festa",
+    descricao: "Por encomenda - a cor de sua preferência.",
+    preco: 1.5,
+    foto: pirulitomarshmallow,
   },
 
   {
-    name: "Pirulito de chocolate",
-    category: "Outros",
-    describe: "Por encomenda - a cor de sua preferência.",
-    price: 3.0,
-    image: pirulitochoc,
+    id: 13.4,
+    nome: "Pirulito de chocolate",
+    categoria: "Festa",
+    descricao: "Por encomenda - a cor de sua preferência.",
+    preco: 3.0,
+    foto: pirulitochoc,
   },
 ];
 

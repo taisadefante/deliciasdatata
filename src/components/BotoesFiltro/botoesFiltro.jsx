@@ -10,7 +10,7 @@ import logoEmpadao from "../../assets/empadao/empadao.jpg";
 import logoEmpadinhas from "../../assets/empadinhas/frango.jpg";
 import logoQuiche from "../../assets/quiche/alho_poro.png";
 import logoPizza from "../../assets/pizza/mucarela.png";
-import logoSalgados from "../../assets/pizza/mucarela.png";
+import logoSalgados from "../../assets/bolinhofeijoada/IMG_2669.jpg";
 import logoBolos from "../../assets/pizza/mucarela.png";
 import logoDonuts from "../../assets/donuts/churros.png";
 import logoBebida from "../../assets/bebida/pepsi.jpg";
