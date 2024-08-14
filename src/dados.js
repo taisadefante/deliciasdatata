@@ -383,7 +383,7 @@ const produtos = [
     nome: "Bolo de batata c/ arroz",
     categoria: "Refeições Tradionais",
     descricao: "Recheado com molho a bolonhesa e queijo (aprox: 500gr)  .",
-    preco: 15.0,
+    preco: 14.0,
     foto: bolo_batata_arroz,
   },
 
