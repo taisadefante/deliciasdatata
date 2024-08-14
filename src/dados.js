@@ -410,7 +410,7 @@ const produtos = [
   },
   {
     id: 7.2,
-    nome: "Mini pizza muçarela",
+    nome: "Mini pizza muçarela 7cm",
     categoria: "Pizza",
     descricao:
       " Aprox: ( 7cm ) cada - cento por R$ 100,00 (verificar disponibilidade)",
@@ -429,10 +429,10 @@ const produtos = [
 
   {
     id: 7.4,
-    nome: "Mini pizza calabresa 14cm",
+    nome: "Mini pizza calabresa 11cm",
     categoria: "Pizza",
     descricao: " Aprox: 12cm cada ",
-    preco: 2.6,
+    preco: 2.2,
     foto: mini_pizza_calabresa_14cm,
   },
 
@@ -447,10 +447,10 @@ const produtos = [
 
   {
     id: 7.6,
-    nome: "Mini pizza calabresa",
+    nome: "Mini pizza calabresa 14cm",
     categoria: "Pizza",
     descricao: " Aprox: 14cm cada ",
-    preco: 2.2,
+    preco: 3.2,
     foto: mini_pizza_mucarela_12cm,
   },
   //BOLINHO FEIJOADA
