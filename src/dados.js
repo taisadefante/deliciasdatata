@@ -1,4 +1,7 @@
 //FIT
+import panqueca_arrozblocolis from "./assets/fit/panqueca_arrozbrocolis.png";
+import panqueca_arrozbranco from "./assets/fit/panqueca_arrozbranco.png";
+import panqueca_espinafre from "./assets/fit/panqueca_espinafre.png";
 
 //DOCES FIT
 
@@ -90,6 +93,35 @@ import sukita_laranja from "./assets/bebida/sukita_laranja.jpg";
 
 const produtos = [
   //FIT
+  {
+    id: 2,
+    nome: "Panqueca carne",
+    categoria: "Fit",
+    descricao:
+      "Aprox: 350ml - Panqueca de carne com milho, arroz branco, cenoura refogada no azeite e ervas finas e brocolis.",
+    preco: 16.0,
+    foto: panqueca_arrozbranco,
+  },
+
+  {
+    id: 2.1,
+    nome: "Panqueca carne",
+    categoria: "Fit",
+    descricao:
+      "Aprox: 350ml - Panqueca de carne com milho, arroz branco com brocolis, cenoura refogada no azeite e ervas finas.",
+    preco: 16.0,
+    foto: panqueca_arrozblocolis,
+  },
+
+  {
+    id: 2.2,
+    nome: "Panqueca de espinafre carne",
+    categoria: "Fit",
+    descricao:
+      "Aprox: 350ml - Panqueca de espinafre c/ carne com milho, arroz branco, cenoura refogada no azeite e ervas finas e blocolis.",
+    preco: 16.0,
+    foto: panqueca_espinafre,
+  },
 
   //DOCES FIT
 
@@ -270,23 +302,45 @@ const produtos = [
   // empadão
   {
     id: 14,
-    nome: "Empadão de frango",
+    nome: "Empadão de frango 500g",
     categoria: "Empadão",
     descricao:
       "( Aprox: 500gr) - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta.",
 
-    preco: 24.9,
+    preco: 24.0,
     foto: empadao,
   },
 
   {
     id: 14.1,
-    nome: "Empadão de frango c/ requeijão",
+    nome: "Empadão de frango c/ requeijão 500g",
     categoria: "Empadão",
     descricao:
       "( Aprox: 500gr) - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta.",
 
-    preco: 14.9,
+    preco: 24.0,
+    foto: empadao,
+  },
+
+  {
+    id: 14.2,
+    nome: "Empadão de frango c/ requeijão 250g",
+    categoria: "Empadão",
+    descricao:
+      "( Aprox: 250gr) - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta.",
+
+    preco: 14.0,
+    foto: empadao,
+  },
+
+  {
+    id: 14.3,
+    nome: "Empadão de frango ",
+    categoria: "Empadão",
+    descricao:
+      "( Aprox: 250gr) - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta.",
+
+    preco: 13.0,
     foto: empadao,
   },
 
