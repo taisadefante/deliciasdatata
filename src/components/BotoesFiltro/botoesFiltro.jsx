@@ -17,6 +17,7 @@ import logoDonuts from "../../assets/donuts/churros.png";
 import logoFestas from "../../assets/outros/pirulito-mar.png";
 import logoBebida from "../../assets/bebida/pepsi.jpg";
 import logoDoces from "../../assets/doces e sobremesas/arroz doce.jpg";
+import logoPanqueca from "../../assets/panqueca/panqueca_carne.png";
 
 function BotoesFiltro({ setFiltro, filtroAtivo, setFiltroAtivo, produtos }) {
   const categorias = [
@@ -25,6 +26,7 @@ function BotoesFiltro({ setFiltro, filtroAtivo, setFiltroAtivo, produtos }) {
     "Sopas",
     "Refeições Tradionais",
     "Massas",
+    "Panquecas",
     "Empadas",
     "Empadão",
     "Empadinhas",
@@ -70,6 +72,8 @@ function BotoesFiltro({ setFiltro, filtroAtivo, setFiltroAtivo, produtos }) {
                   ? logoMassas
                   : categoria === "Refeições Tradionais"
                   ? logoRefeicao
+                  : categoria === "Panquecas"
+                  ? logoPanqueca
                   : categoria === "Empadas"
                   ? logoEmpadas
                   : categoria === "Empadão"

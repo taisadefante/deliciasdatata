@@ -18,6 +18,10 @@ import lasanha_bolonhesa from "./assets/massas/lasanha_bolonhesa.png";
 import lasanha_frango from "./assets/massas/lasanha-frango.jpg";
 import nhoque from "./assets/massas/nhoque.jpg";
 
+//PANQUECAS
+import panqueca_carne from "./assets/panqueca/panqueca_carne.png";
+import panqueca_espinafre_carne from "./assets/panqueca/espinafre_carne.png";
+
 //EMPADAS
 
 import empada_Frango from "./assets/empadas/frango.png";
@@ -224,6 +228,25 @@ const produtos = [
       " (aprox: 550gr) - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta.",
     preco: 22.0,
     foto: nhoque,
+  },
+
+  //PANQUECAS
+  {
+    id: 11,
+    nome: "Panqueca c/ Carne",
+    categoria: "Panquecas",
+    descricao: " (aprox: 300gr) - panqueca com carne e milho",
+    preco: 18.0,
+    foto: panqueca_carne,
+  },
+
+  {
+    id: 11,
+    nome: "Panqueca de espinafre Carne",
+    categoria: "Panquecas",
+    descricao: " (aprox: 300gr) - panqueca com carne e milho",
+    preco: 18.0,
+    foto: panqueca_espinafre_carne,
   },
 
   //EMPADAS
