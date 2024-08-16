@@ -1,3 +1,5 @@
+import promocao from "./assets/promocao.png";
+
 //FIT
 import panqueca_arrozblocolis from "./assets/fit/panqueca_arrozbrocolis.png";
 import panqueca_arrozbranco from "./assets/fit/panqueca_arrozbranco.png";
@@ -23,7 +25,6 @@ import panqueca_carne from "./assets/panqueca/panqueca_carne.png";
 import panqueca_espinafre_carne from "./assets/panqueca/espinafre_carne.png";
 
 //EMPADAS
-
 import empada_Frango from "./assets/empadas/frango.png";
 import empada_frango_azeitona from "./assets/empadas/frango_azeitona.png";
 import empada_queijo from "./assets/empadas/queijo.png";
@@ -98,6 +99,14 @@ import sukita_laranja from "./assets/bebida/sukita_laranja.jpg";
 const produtos = [
   //FIT
   {
+    id: 2.0,
+    nome: "Promoção",
+    categoria: "Fit",
+    descricao: "10 marmitas de 350g por encomenda a R$ 150,00",
+    preco: 150.0,
+    foto: promocao,
+  },
+  {
     id: 2,
     nome: "Panqueca carne",
     categoria: "Fit",
@@ -130,6 +139,15 @@ const produtos = [
   //DOCES FIT
 
   //SOPAS
+
+  {
+    id: 6.0,
+    nome: "Promoção",
+    categoria: "Sopas",
+    descricao: "3 sopas de 500g por R$50,00",
+    preco: 50.0,
+    foto: sopa_ervilha,
+  },
   {
     id: 6,
     nome: "Sopa de ervilha 500ml",
