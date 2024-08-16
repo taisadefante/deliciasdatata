@@ -5,17 +5,18 @@ import ProdutoVitrine from "../ProdutosVitrine/produtosVitrine";
 import logofit from "../../assets/fit/logofit.png";
 import logoMassas from "../../assets/massas/bolo-batata.png";
 import logoRefeicao from "../../assets/massas/bolo-batata.png";
+import logoSopa from "../../assets/sopa/ervilha.png";
 import logoEmpadas from "../../assets/empadas/frango_azeitona.png";
 import logoEmpadao from "../../assets/empadao/empadao.jpg";
 import logoEmpadinhas from "../../assets/empadinhas/frango.jpg";
 import logoQuiche from "../../assets/quiche/alho_poro.png";
 import logoPizza from "../../assets/pizza/mucarela.png";
-import logoSalgados from "../../assets/bolinhofeijoada/IMG_2669.jpg";
+import logoSalgados from "../../assets/salgados/IMG_2669.jpg";
 import logoBolos from "../../assets/bolos/laranja.webp";
 import logoDonuts from "../../assets/donuts/churros.png";
 import logoFestas from "../../assets/outros/pirulito-mar.png";
 import logoBebida from "../../assets/bebida/pepsi.jpg";
-import logoDoces from "../../assets/outros/arroz doce.jpg";
+import logoDoces from "../../assets/doces e sobremesas/arroz doce.jpg";
 
 function BotoesFiltro({ setFiltro, filtroAtivo, setFiltroAtivo, produtos }) {
   const categorias = [
@@ -64,7 +65,7 @@ function BotoesFiltro({ setFiltro, filtroAtivo, setFiltroAtivo, produtos }) {
                   : categoria === "Doces Fit"
                   ? logofit
                   : categoria === "Sopas"
-                  ? logofit
+                  ? logoSopa
                   : categoria === "Massas"
                   ? logoMassas
                   : categoria === "Refeições Tradionais"
