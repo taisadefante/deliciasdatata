@@ -1,19 +1,17 @@
 import promocao from "./assets/promocao.png";
 
-//FIT
+//FIT - REFEIÇÃO TRADICIONAL
 import panqueca_arrozblocolis from "./assets/fit/panqueca_arrozbrocolis.png";
 import panqueca_arrozbranco from "./assets/fit/panqueca_arrozbranco.png";
 import panqueca_espinafre from "./assets/fit/panqueca_espinafre.png";
+import bolo_batata from "./assets/massas/bolo-batata.png";
+import bolo_batata_arroz from "./assets/refeicoes/BOLO BATATA E ARROZ BRANCO.png";
 
 //DOCES FIT
 
 //SOPAS
 import sopa_ervilha from "./assets/sopa/ervilha.png";
 import sopa_canja from "./assets/sopa/CANJA.png";
-
-//REFEIÇÃO TRADICIONAL
-import bolo_batata from "./assets/massas/bolo-batata.png";
-import bolo_batata_arroz from "./assets/refeicoes/BOLO BATATA E ARROZ BRANCO.png";
 
 //MASSAS
 import lasanha_bolonhesa from "./assets/massas/lasanha_bolonhesa.png";
@@ -98,18 +96,11 @@ import sukita_laranja from "./assets/bebida/sukita_laranja.jpg";
 
 const produtos = [
   //FIT
-  {
-    id: 2.0,
-    nome: "Promoção",
-    categoria: "Fit",
-    descricao: "10 marmitas de 350g por encomenda a R$ 150,00",
-    preco: 150.0,
-    foto: promocao,
-  },
+
   {
     id: 2,
     nome: "Panqueca carne",
-    categoria: "Fit",
+    categoria: "Refeições ( Fit, Tradicionais)",
     descricao:
       "Aprox: 350ml - Panqueca de carne com milho, arroz branco, cenoura refogada no azeite e ervas finas e brocolis.",
     preco: 16.0,
@@ -119,7 +110,7 @@ const produtos = [
   {
     id: 2.1,
     nome: "Panqueca carne",
-    categoria: "Fit",
+    categoria: "Refeições ( Fit, Tradicionais)",
     descricao:
       "Aprox: 350ml - Panqueca de carne com milho, arroz branco com brocolis, cenoura refogada no azeite e ervas finas.",
     preco: 16.0,
@@ -129,11 +120,30 @@ const produtos = [
   {
     id: 2.2,
     nome: "Panqueca de espinafre carne",
-    categoria: "Fit",
+    categoria: "Refeições ( Fit, Tradicionais)",
     descricao:
       "Aprox: 350ml - Panqueca de espinafre c/ carne com milho, arroz branco, cenoura refogada no azeite e ervas finas e blocolis.",
     preco: 16.0,
     foto: panqueca_espinafre,
+  },
+
+  {
+    id: 2.3,
+    nome: "Bolo de batata",
+    categoria: "Refeições ( Fit, Tradicionais)",
+    descricao:
+      "Recheado com molho a bolonhesa e queijo (aprox: 600gr)  - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta).",
+    preco: 20.0,
+    foto: bolo_batata,
+  },
+
+  {
+    id: 2.4,
+    nome: "Bolo de batata c/ arroz",
+    categoria: "Refeições ( Fit, Tradicionais)",
+    descricao: "Recheado com molho a bolonhesa e queijo (aprox: 500gr)  .",
+    preco: 16.0,
+    foto: bolo_batata_arroz,
   },
 
   //DOCES FIT
@@ -144,10 +154,11 @@ const produtos = [
     id: 6.0,
     nome: "Promoção",
     categoria: "Sopas",
-    descricao: "3 sopas de 500g por R$50,00",
+    descricao: "3 sopas de 500g (encomenda) por R$50,00",
     preco: 50.0,
     foto: sopa_ervilha,
   },
+
   {
     id: 6,
     nome: "Sopa de ervilha 500ml",
@@ -165,26 +176,6 @@ const produtos = [
       "Aprox: 500ml - Com batata, cenoura, peito frango em cubos, curry",
     preco: 18.0,
     foto: sopa_canja,
-  },
-
-  //REFEIÇÕES TRADICIONAIS
-  {
-    id: 8,
-    nome: "Bolo de batata",
-    categoria: "Refeições Tradionais",
-    descricao:
-      "Recheado com molho a bolonhesa e queijo (aprox: 600gr)  - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta).",
-    preco: 20.0,
-    foto: bolo_batata,
-  },
-
-  {
-    id: 8.1,
-    nome: "Bolo de batata c/ arroz",
-    categoria: "Refeições Tradionais",
-    descricao: "Recheado com molho a bolonhesa e queijo (aprox: 500gr)  .",
-    preco: 16.0,
-    foto: bolo_batata_arroz,
   },
 
   //MASSAS

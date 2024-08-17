@@ -21,10 +21,9 @@ import logoPanqueca from "../../assets/panqueca/panqueca_carne.png";
 
 function BotoesFiltro({ setFiltro, filtroAtivo, setFiltroAtivo, produtos }) {
   const categorias = [
-    "Fit",
+    "Refeições ( Fit, Tradicionais)",
     "Doces Fit",
     "Sopas",
-    "Refeições Tradionais",
     "Massas",
     "Panquecas",
     "Empadas",
@@ -62,7 +61,7 @@ function BotoesFiltro({ setFiltro, filtroAtivo, setFiltroAtivo, produtos }) {
           >
             <img
               src={
-                categoria === "Fit"
+                categoria === "Refeições ( Fit, Tradicionais)"
                   ? logofit
                   : categoria === "Doces Fit"
                   ? logofit
@@ -70,8 +69,6 @@ function BotoesFiltro({ setFiltro, filtroAtivo, setFiltroAtivo, produtos }) {
                   ? logoSopa
                   : categoria === "Massas"
                   ? logoMassas
-                  : categoria === "Refeições Tradionais"
-                  ? logoRefeicao
                   : categoria === "Panquecas"
                   ? logoPanqueca
                   : categoria === "Empadas"
