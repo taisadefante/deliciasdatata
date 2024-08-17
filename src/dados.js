@@ -1,13 +1,13 @@
 import promocao from "./assets/promocao.png";
 
-//FIT - REFEIÇÃO TRADICIONAL
-import panqueca_arrozblocolis from "./assets/fit/panqueca_arrozbrocolis.png";
-import panqueca_arrozbranco from "./assets/fit/panqueca_arrozbranco.png";
-import panqueca_espinafre from "./assets/fit/panqueca_espinafre.png";
-import bolo_batata from "./assets/massas/bolo-batata.png";
-import bolo_batata_arroz from "./assets/refeicoes/BOLO BATATA E ARROZ BRANCO.png";
+//REFEIÇÕES - FIT / TRADICIONAL
 
-//DOCES FIT
+import panqueca_arrozblocolis from "./assets/refeições-fit-tradicional/panqueca_arrozbrocolis.png";
+import panqueca_arrozbranco from "./assets/refeições-fit-tradicional/panqueca_arrozbranco.png";
+import panqueca_espinafre from "./assets/refeições-fit-tradicional/panqueca_espinafre.png";
+import bolo_batata from "./assets/refeições-fit-tradicional/bolo-batata.png";
+import bolo_batata_arroz from "./assets/refeições-fit-tradicional/BOLO BATATA E ARROZ BRANCO.png";
+import panqueca_arrozbrocolis_molhobranco from "./assets/refeições-fit-tradicional/panqueca_arrozbrocolis (2).png";
 
 //SOPAS
 import sopa_ervilha from "./assets/sopa/ervilha.png";
@@ -21,6 +21,9 @@ import nhoque from "./assets/massas/nhoque.jpg";
 //PANQUECAS
 import panqueca_carne from "./assets/panqueca/panqueca_carne.png";
 import panqueca_espinafre_carne from "./assets/panqueca/espinafre_carne.png";
+import panqueca_frango_molhobranco from "./assets/panqueca/molhobranco.png";
+import panqueca_espinafre_frango_molhobranco from "./assets/panqueca/PAQUECA_ESPINAFRE.png";
+import panqueca_queijo_pres_maj from "./assets/panqueca/queijo_presunto_manjericao.jpg";
 
 //EMPADAS
 import empada_Frango from "./assets/empadas/frango.png";
@@ -95,14 +98,14 @@ import sukita_uva from "./assets/bebida/sukita_uva.jpg";
 import sukita_laranja from "./assets/bebida/sukita_laranja.jpg";
 
 const produtos = [
-  //FIT
+  //REFEIÇÕES - FIT/TRADICIONAL
 
   {
     id: 2,
     nome: "Panqueca carne",
     categoria: "Refeições ( Fit, Tradicionais)",
     descricao:
-      "Aprox: 350ml - Panqueca de carne com milho, arroz branco, cenoura refogada no azeite e ervas finas e brocolis.",
+      "Aprox: 350g - Panqueca de carne com milho, arroz branco, cenoura refogada no azeite e ervas finas e brocolis.",
     preco: 16.0,
     foto: panqueca_arrozbranco,
   },
@@ -112,7 +115,7 @@ const produtos = [
     nome: "Panqueca carne",
     categoria: "Refeições ( Fit, Tradicionais)",
     descricao:
-      "Aprox: 350ml - Panqueca de carne com milho, arroz branco com brocolis, cenoura refogada no azeite e ervas finas.",
+      "Aprox: 350g - Panqueca de carne com milho, arroz branco com brocolis, cenoura refogada no azeite e ervas finas.",
     preco: 16.0,
     foto: panqueca_arrozblocolis,
   },
@@ -122,7 +125,7 @@ const produtos = [
     nome: "Panqueca de espinafre carne",
     categoria: "Refeições ( Fit, Tradicionais)",
     descricao:
-      "Aprox: 350ml - Panqueca de espinafre c/ carne com milho, arroz branco, cenoura refogada no azeite e ervas finas e blocolis.",
+      "Aprox: 350g - Panqueca de espinafre c/ carne com milho, arroz branco, cenoura refogada no azeite e ervas finas e blocolis.",
     preco: 16.0,
     foto: panqueca_espinafre,
   },
@@ -132,7 +135,7 @@ const produtos = [
     nome: "Bolo de batata",
     categoria: "Refeições ( Fit, Tradicionais)",
     descricao:
-      "Recheado com molho a bolonhesa e queijo (aprox: 600gr)  - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta).",
+      "Recheado com molho a bolonhesa e queijo (aprox: 500g)  - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta).",
     preco: 20.0,
     foto: bolo_batata,
   },
@@ -141,12 +144,28 @@ const produtos = [
     id: 2.4,
     nome: "Bolo de batata c/ arroz",
     categoria: "Refeições ( Fit, Tradicionais)",
-    descricao: "Recheado com molho a bolonhesa e queijo (aprox: 500gr)  .",
+    descricao: "Recheado com molho a bolonhesa e queijo (aprox: 500g)  .",
     preco: 16.0,
     foto: bolo_batata_arroz,
   },
 
-  //DOCES FIT
+  {
+    id: 2.5,
+    nome: "Bolo de batata c/ arroz",
+    categoria: "Refeições ( Fit, Tradicionais)",
+    descricao: "Recheado com molho a bolonhesa e queijo (aprox: 500g)  .",
+    preco: 16.0,
+    foto: bolo_batata_arroz,
+  },
+
+  {
+    id: 2.6,
+    nome: "Panqueca frango c/ milho, arroz c/ brócolis",
+    categoria: "Refeições ( Fit, Tradicionais)",
+    descricao: " (aprox: 300g)  .",
+    preco: 14.0,
+    foto: panqueca_arrozbrocolis_molhobranco,
+  },
 
   //SOPAS
 
@@ -250,12 +269,39 @@ const produtos = [
   },
 
   {
-    id: 11,
+    id: 11.1,
     nome: "Panqueca de espinafre Carne",
     categoria: "Panquecas",
     descricao: " (aprox: 300gr) - panqueca com carne e milho",
     preco: 18.0,
     foto: panqueca_espinafre_carne,
+  },
+
+  {
+    id: 11.2,
+    nome: "Panqueca de espinafre frango com ricota molho branco",
+    categoria: "Panquecas",
+    descricao: " (aprox: 300gr) ",
+    preco: 18.0,
+    foto: panqueca_espinafre_frango_molhobranco,
+  },
+
+  {
+    id: 11.3,
+    nome: "Panqueca frango com milho molho branco",
+    categoria: "Panquecas",
+    descricao: " (aprox: 300gr) ",
+    preco: 18.0,
+    foto: panqueca_frango_molhobranco,
+  },
+
+  {
+    id: 11.4,
+    nome: "Panqueca queijo, presunto, tomate e manjericão",
+    categoria: "Panquecas",
+    descricao: " (aprox: 300gr) ",
+    preco: 18.0,
+    foto: panqueca_queijo_pres_maj,
   },
 
   //EMPADAS

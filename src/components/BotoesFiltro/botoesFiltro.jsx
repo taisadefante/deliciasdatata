@@ -2,9 +2,8 @@
 import { useState } from "react";
 import "./botoesFiltro.css";
 import ProdutoVitrine from "../ProdutosVitrine/produtosVitrine";
-import logofit from "../../assets/fit/logofit.png";
-import logoMassas from "../../assets/massas/bolo-batata.png";
-import logoRefeicao from "../../assets/massas/bolo-batata.png";
+import logoMassas from "../../assets/massas/lasanha_bolonhesa.png";
+import logoRefeicao from "../../assets/refeições-fit-tradicional/panqueca_arrozbrocolis.png";
 import logoSopa from "../../assets/sopa/ervilha.png";
 import logoEmpadas from "../../assets/empadas/frango_azeitona.png";
 import logoEmpadao from "../../assets/empadao/empadao.jpg";
@@ -22,7 +21,6 @@ import logoPanqueca from "../../assets/panqueca/panqueca_carne.png";
 function BotoesFiltro({ setFiltro, filtroAtivo, setFiltroAtivo, produtos }) {
   const categorias = [
     "Refeições ( Fit, Tradicionais)",
-    "Doces Fit",
     "Sopas",
     "Massas",
     "Panquecas",
@@ -62,9 +60,7 @@ function BotoesFiltro({ setFiltro, filtroAtivo, setFiltroAtivo, produtos }) {
             <img
               src={
                 categoria === "Refeições ( Fit, Tradicionais)"
-                  ? logofit
-                  : categoria === "Doces Fit"
-                  ? logofit
+                  ? logoRefeicao
                   : categoria === "Sopas"
                   ? logoSopa
                   : categoria === "Massas"
