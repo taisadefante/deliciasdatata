@@ -101,6 +101,15 @@ const produtos = [
   //REFEIÇÕES - FIT/TRADICIONAL
 
   {
+    id: 2.0,
+    nome: "Promoção",
+    categoria: "Refeições ( Fit, Tradicionais)",
+    descricao: "Comprando 10 marmitas ( encomenda) ganhe 7% de desconto",
+    preco: 0,
+    foto: promocao,
+  },
+
+  {
     id: 2,
     nome: "Panqueca carne",
     categoria: "Refeições ( Fit, Tradicionais)",
@@ -144,8 +153,8 @@ const produtos = [
     id: 2.4,
     nome: "Bolo de batata c/ arroz",
     categoria: "Refeições ( Fit, Tradicionais)",
-    descricao: "Recheado com molho a bolonhesa e queijo (aprox: 500g)  .",
-    preco: 16.0,
+    descricao: "Recheado com molho a bolonhesa e queijo (aprox: 400g)  .",
+    preco: 17.0,
     foto: bolo_batata_arroz,
   },
 
@@ -153,8 +162,8 @@ const produtos = [
     id: 2.5,
     nome: "Bolo de batata c/ arroz",
     categoria: "Refeições ( Fit, Tradicionais)",
-    descricao: "Recheado com molho a bolonhesa e queijo (aprox: 500g)  .",
-    preco: 16.0,
+    descricao: "Recheado com molho a bolonhesa e queijo (aprox: 400g)  .",
+    preco: 17.0,
     foto: bolo_batata_arroz,
   },
 
@@ -173,9 +182,9 @@ const produtos = [
     id: 6.0,
     nome: "Promoção",
     categoria: "Sopas",
-    descricao: "3 sopas de 500g (encomenda) por R$50,00",
-    preco: 50.0,
-    foto: sopa_ervilha,
+    descricao: "Comprando 3 sopas (encomenda) ganhe 7% desconto",
+    preco: 0,
+    foto: promocao,
   },
 
   {
