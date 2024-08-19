@@ -20,7 +20,7 @@ import logoPanqueca from "../../assets/panqueca/panqueca_carne.png";
 
 function BotoesFiltro({ setFiltro, filtroAtivo, setFiltroAtivo, produtos }) {
   const categorias = [
-    "Refeições ( Fit, Tradicionais)",
+    "Refeições (Fit, Tradicionais, Low carb)",
     "Sopas",
     "Massas",
     "Panquecas",
@@ -59,7 +59,7 @@ function BotoesFiltro({ setFiltro, filtroAtivo, setFiltroAtivo, produtos }) {
           >
             <img
               src={
-                categoria === "Refeições ( Fit, Tradicionais)"
+                categoria === "Refeições (Fit, Tradicionais, Low carb)"
                   ? logoRefeicao
                   : categoria === "Sopas"
                   ? logoSopa

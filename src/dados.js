@@ -8,6 +8,7 @@ import panqueca_espinafre from "./assets/refeições-fit-tradicional/panqueca_es
 import bolo_batata from "./assets/refeições-fit-tradicional/bolo-batata.png";
 import bolo_batata_arroz from "./assets/refeições-fit-tradicional/BOLO BATATA E ARROZ BRANCO.png";
 import panqueca_arrozbrocolis_molhobranco from "./assets/refeições-fit-tradicional/panqueca_arrozbrocolis (2).png";
+import panqueca_arrozcenoura from "./assets/refeições-fit-tradicional/panqueca_arrozcenoura.jpg";
 
 //SOPAS
 import sopa_ervilha from "./assets/sopa/ervilha.png";
@@ -103,7 +104,7 @@ const produtos = [
   {
     id: 2.0,
     nome: "Promoção",
-    categoria: "Refeições ( Fit, Tradicionais)",
+    categoria: "Refeições (Fit, Tradicionais, Low carb)",
     descricao: "Comprando 10 marmitas ( encomenda) ganhe 7% de desconto",
     preco: 0,
     foto: promocao,
@@ -112,9 +113,9 @@ const produtos = [
   {
     id: 2,
     nome: "Panqueca carne",
-    categoria: "Refeições ( Fit, Tradicionais)",
+    categoria: "Refeições (Fit, Tradicionais, Low carb)",
     descricao:
-      "Aprox: 350g - Panqueca de carne com milho, arroz branco, cenoura refogada no azeite e ervas finas e brocolis.",
+      "Aprox: 350g - Panqueca de carne com milho, arroz branco, cenoura refogada no azeite e ervas finas e brocolis. - Refeição Tradiciona",
     preco: 16.0,
     foto: panqueca_arrozbranco,
   },
@@ -122,9 +123,9 @@ const produtos = [
   {
     id: 2.1,
     nome: "Panqueca carne",
-    categoria: "Refeições ( Fit, Tradicionais)",
+    categoria: "Refeições (Fit, Tradicionais, Low carb)",
     descricao:
-      "Aprox: 350g - Panqueca de carne com milho, arroz branco com brocolis, cenoura refogada no azeite e ervas finas.",
+      "Aprox: 350g - Panqueca de carne com milho, arroz branco com brocolis, cenoura refogada no azeite e ervas finas. - Refeição Tradiciona",
     preco: 16.0,
     foto: panqueca_arrozblocolis,
   },
@@ -132,9 +133,9 @@ const produtos = [
   {
     id: 2.2,
     nome: "Panqueca de espinafre carne",
-    categoria: "Refeições ( Fit, Tradicionais)",
+    categoria: "Refeições (Fit, Tradicionais, Low carb)",
     descricao:
-      "Aprox: 350g - Panqueca de espinafre c/ carne com milho, arroz branco, cenoura refogada no azeite e ervas finas e blocolis.",
+      "Aprox: 350g - Panqueca de espinafre c/ carne com milho, arroz branco, cenoura refogada no azeite e ervas finas e blocolis.- Refeição Tradiciona",
     preco: 16.0,
     foto: panqueca_espinafre,
   },
@@ -142,38 +143,78 @@ const produtos = [
   {
     id: 2.3,
     nome: "Bolo de batata",
-    categoria: "Refeições ( Fit, Tradicionais)",
+    categoria: "Refeições (Fit, Tradicionais, Low carb)",
     descricao:
-      "Recheado com molho a bolonhesa e queijo (aprox: 500g)  - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta).",
-    preco: 20.0,
+      "Recheado com molho a bolonhesa e queijo (aprox: 500g)  - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta). - Refeição Tradiciona",
+    preco: 21.0,
     foto: bolo_batata,
   },
 
   {
     id: 2.4,
     nome: "Bolo de batata c/ arroz",
-    categoria: "Refeições ( Fit, Tradicionais)",
-    descricao: "Recheado com molho a bolonhesa e queijo (aprox: 400g)  .",
+    categoria: "Refeições (Fit, Tradicionais, Low carb)",
+    descricao:
+      "Recheado com molho a bolonhesa e queijo (aprox: 400g). - Refeição Tradiciona",
     preco: 17.0,
     foto: bolo_batata_arroz,
   },
 
   {
     id: 2.5,
-    nome: "Bolo de batata c/ arroz",
-    categoria: "Refeições ( Fit, Tradicionais)",
-    descricao: "Recheado com molho a bolonhesa e queijo (aprox: 400g)  .",
-    preco: 17.0,
+    nome: "Panqueca de frango c/ ricota - arroz c/ brócolis",
+    categoria: "Refeições (Fit, Tradicionais, Low carb)",
+    descricao: "(aprox: 300g). - Refeição Tradiciona",
+    preco: 14.0,
     foto: bolo_batata_arroz,
   },
 
   {
     id: 2.6,
     nome: "Panqueca frango c/ milho, arroz c/ brócolis",
-    categoria: "Refeições ( Fit, Tradicionais)",
-    descricao: " (aprox: 300g)  .",
+    categoria: "Refeições (Fit, Tradicionais, Low carb)",
+    descricao: " (aprox: 300g). - Refeição Tradiciona",
     preco: 14.0,
-    foto: panqueca_arrozbrocolis_molhobranco,
+    foto: panqueca_arrozcenoura,
+  },
+
+  {
+    id: 2.7,
+    nome: "Panqueca espinafre frango cremoso com requeijão, arroz com cenoura",
+    categoria: "Refeições (Fit, Tradicionais, Low carb)",
+    descricao: " (aprox: 300g)  - Refeição Tradiciona",
+    preco: 14.0,
+    foto: panqueca_arrozcenoura,
+  },
+
+  {
+    id: 2.8,
+    nome: "Panqueca espinafre frango e ricota, arroz com cenoura",
+    categoria: "Refeições (Fit, Tradicionais, Low carb)",
+    descricao: " (aprox: 300g) - Refeição Tradiciona",
+    preco: 14.0,
+    preco: 14.0,
+    foto: panqueca_arrozcenoura,
+  },
+
+  {
+    id: 2.9,
+    nome: "Panqueca espinafre frango , arroz com cenoura",
+    categoria: "Refeições (Fit, Tradicionais, Low carb)",
+    descricao: " (aprox: 250g) - Refeição Tradiciona",
+    preco: 14.0,
+    preco: 12.0,
+    foto: panqueca_arrozcenoura,
+  },
+
+  {
+    id: 2.9,
+    nome: "Panqueca espinafre frango C/ MILHO , arroz com cenoura",
+    categoria: "Refeições (Fit, Tradicionais, Low carb)",
+    descricao: " (aprox: 250g)  - Refeição Tradiciona",
+    preco: 14.0,
+    preco: 12.0,
+    foto: panqueca_arrozcenoura,
   },
 
   //SOPAS
